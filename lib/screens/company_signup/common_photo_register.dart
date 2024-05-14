@@ -21,9 +21,11 @@ Widget buildButton({
         children: [
           Icon(icon, size: 28, color: Mycolor.teal),
           const SizedBox(width: 16),
-          Text(title
-            ,style: TextStyle(
-              fontSize: 17,
+          Expanded(
+            child: Text(title
+              ,style: TextStyle(
+                fontSize: 17,
+              ),
             ),
           ),
           const SizedBox(height: 48),

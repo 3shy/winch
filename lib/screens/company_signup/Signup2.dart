@@ -300,6 +300,7 @@ class _Signup2State extends State<Signup2> {
                                   child: const Text('Sign up',
                                       style: TextStyle(
                                         fontSize: 18,
+                                        color: Colors.white,
                                       ))
 
                               ),
@@ -325,7 +326,8 @@ class _Signup2State extends State<Signup2> {
                                 child: Text(
                                   "Log In",
                                   style: TextStyle(
-                                    color: Mycolor.teal,
+                                    decoration: TextDecoration.underline,
+                                    color: Colors.blue,
                                   ),
                                 )),
                           ],
